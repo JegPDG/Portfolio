@@ -1,0 +1,95 @@
+.main-banner{
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+  align-items: center; 
+  margin-top: 2.5rem;
+}
+
+.main-banner p:nth-child(1), .main-banner p:nth-child(2){
+  font-size: 3rem;
+  line-height: 2rem;
+  
+}
+
+.main-banner p:nth-child(3){
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
+.image-container img{
+  height: 12rem;
+}
+
+/* ABOUT ME SECTION      */
+.about-me-cont{
+  line-height: 1rem;
+}
+
+.about-me-cont p:nth-child(1), .work-exp-title, .education-title, .contact-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+
+}
+
+.about-me-cont p:nth-child(2){
+  font-size: 0.8rem;
+}
+
+/* WORK EXPERIENCE     */
+
+.work-exp-comp{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  padding: 1rem;
+  align-items: center;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+}
+
+.work-exp-comp img{
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+
+}
+
+.work-exp-comp div:nth-child(1){
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.text-cont p:nth-child(1){
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.text-cont .description{
+  margin-top: 0.5rem;
+  line-height: 12px;
+}
+
+
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  background-color: #D9D9D9;
+  padding: 1rem;
+  font-size: 0.8rem;
+
+}
