@@ -3,7 +3,7 @@
   flex-direction: row;
   font-weight: bolder;
   align-items: center; 
-  margin-top: 2.5rem;
+  margin: 2.5rem 0 0 10px ;
 }
 
 .main-banner p:nth-child(1), .main-banner p:nth-child(2){
@@ -31,13 +31,13 @@
 .about-me-cont p:nth-child(1), .work-exp-title, .education-title, .contact-title{
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
-  margin-top: 2rem;
+  margin: 2rem 10px 0.5rem 10px;
 
 }
 
 .about-me-cont p:nth-child(2){
   font-size: 0.8rem;
+  margin: 0 10px;
 }
 
 /* WORK EXPERIENCE     */
@@ -52,7 +52,8 @@
   align-items: center;
   font-size: 0.8rem;
   line-height: 1rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 10px 0 10px;
+  height: 4rem;
 }
 
 .work-exp-comp img{
@@ -81,6 +82,7 @@
 .text-cont .description{
   margin-top: 0.5rem;
   line-height: 12px;
+  font-size: 0.7rem;
 }
 
 
