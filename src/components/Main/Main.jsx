@@ -12,6 +12,7 @@ const Main = () => {
         <p>I'm an aspiring web developer who wants to build dynamic and user-friendly websites. </p>
       </div>
       <div className="image-container">
+        <div className="bg-main-gradient"></div>
         <img src="/bg-picture.png" alt="" />
       </div>
     </div>

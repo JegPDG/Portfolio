@@ -20,7 +20,21 @@
 }
 
 .image-container img{
-  height: 12rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.image-container{
+  position: relative;
+  height: 180px;
+}
+.bg-main-gradient{
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(120,120,121,0.9271358201483718) 43%, rgba(136,137,140,0.8823178929775035) 59%, rgba(6,31,36,0) 100%);
+  left: -70px;
 }
 
 /* ABOUT ME SECTION      */
@@ -91,7 +105,14 @@
   flex-direction: row;
   gap: 0.5rem;
   background-color: #D9D9D9;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
   font-size: 0.8rem;
+  justify-content: space-between;
+  margin: 0 10px 10px 10px;
+  border-radius: 10px;
 
+}
+
+.contact-container div p:nth-child(1){
+  font-weight: bold;
 }

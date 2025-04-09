@@ -39,13 +39,28 @@ const Projects = () => {
       </div>
 
       <p className="projects-title">Projects</p>
-      <div className="proj-upper-main">
-        <div className="projects-main-cont">
-              <img src="/website-test.png" alt="" />
-            <div className="prj-lower-part">
-              <p>Project 1</p>
-              <p>Description of the project, cpuld be anything really.</p>
-            </div>
+
+      <div className="all-proj-cont">
+        <div className="proj-upper-main">
+          <div className="projects-main-cont">
+                <img src="/website-test.png" alt="" />
+              <div className="prj-lower-part">
+                <p>Project 1</p>
+                <p>Description of the project, cpuld be anything really.</p>
+                <p><span>Javascript</span></p>
+              </div>
+          </div>
+        </div>
+
+        <div className="proj-upper-main">
+          <div className="projects-main-cont">
+                <img src="/website-test.png" alt="" />
+              <div className="prj-lower-part">
+                <p>Project 1</p>
+                <p>Description of the project, cpuld be anything really.</p>
+                <p><span>Javascript</span></p>
+              </div>
+          </div>
         </div>
       </div>
 

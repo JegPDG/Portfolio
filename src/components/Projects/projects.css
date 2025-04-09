@@ -5,6 +5,13 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
+.tech-skll-cont::-webkit-scrollbar{
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .tech-skll-cont ul {
   list-style-type: none;
   display: flex;
@@ -42,11 +49,18 @@
   padding: 0 10px;
 
 }
+
+.all-proj-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .proj-upper-main{
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: center;
+  gap: 10px;
 }
 .projects-main-cont{
   position: relative;
@@ -60,6 +74,7 @@
   max-width: 500px;
 }
 
+
 .projects-main-cont img{
   display: block;
   width: 100%;
@@ -67,14 +82,33 @@
 }
 
 .prj-lower-part{
-  position: absolute; /* Overlay is absolutely positioned within the relative container */
-  bottom: 0; /* Anchored to the bottom */
+  position: absolute; 
+  bottom: 0;
   left: 0;
-  width: 100%; /* Full width of the container */
-  background-color: rgba(128, 128, 128, 0.8); /* Semi-transparent grey background */
-  color: white; /* Text color */
-  text-align: center; /* Center align the text */
-  padding: 10px; /* Add spacing inside the overlay */
-  box-sizing: border-box; /* Include padding in total dimensions */
+  width: 100%; 
+  background-color: rgba(14, 13, 13, 0.8);
+  color: white; 
+  padding: 10px;
+  box-sizing: border-box; 
 
 }
+
+.prj-lower-part p:nth-child(1){
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.prj-lower-part p:nth-child(2), .prj-lower-part p:nth-child(3){
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+
+.prj-lower-part p span{
+  background-color: white;
+  color: black;
+  padding: 0 5px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
