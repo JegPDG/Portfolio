@@ -4,6 +4,8 @@
   font-weight: bolder;
   align-items: center; 
   margin: 2.5rem 0 0 10px ;
+  justify-content: center;
+  width: 100%;
 }
 
 .main-banner p:nth-child(1), .main-banner p:nth-child(2){
@@ -59,7 +61,7 @@
 .work-exp-comp{
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: clamp(10px, 5vw, 4rem);
   background-color: #D9D9D9;
   border-radius: 10px;
   padding: 1rem;
@@ -74,6 +76,7 @@
   width: 40px;
   height: 40px;
   object-fit: contain;
+  margin-left: auto;
 
 }
 

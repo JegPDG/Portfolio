@@ -6,7 +6,7 @@
   border-bottom-left-radius: 10px;
 }
 
-.tech-skll-cont::-webkit-scrollbar{
+.tech-skll-cont ul::-webkit-scrollbar{
   display: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
