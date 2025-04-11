@@ -17,11 +17,34 @@ const Projects = () => {
     },
     { img:'/Photoshop_logos-world_(15).svg',
       title:'Photoshop'
+    },
+    {
+      img: "/djano-logo.png",
+      title: "Django"
+    },
+    {
+      img: '/python-logo.svg',
+      title: 'Python'
     }
-
   ]
   
-  
+  const projComp = [
+    {
+      image: '/website-test.png',
+      title: 'Project 1',
+      description: 'Description of the project',
+    },
+    {
+      image: '/fitness-website.png',
+      title: 'Fitness',
+      description: 'Description of the project',
+    },
+    {
+      image: '/movie-website.jpg',
+      title: 'Movie',
+      description: 'Description of the project',
+    }
+  ]
   return (
     <>
       <p className='tech-skill-title'>Technical Skills</p>
@@ -40,29 +63,22 @@ const Projects = () => {
 
       <p className="projects-title">Projects</p>
 
-      <div className="all-proj-cont">
-        <div className="proj-upper-main">
-          <div className="projects-main-cont">
-                <img src="/website-test.png" alt="" />
-              <div className="prj-lower-part">
-                <p>Project 1</p>
-                <p>Description of the project, cpuld be anything really.</p>
-                <p><span>Javascript</span></p>
+      <ul className="all-proj-cont">
+        { projComp.map((proj, index) =>(
+          <li key={index}>
+              <div className="proj-upper-main">
+                <div className="projects-main-cont">
+                      <img src={proj.image} alt="" />
+                    <div className="prj-lower-part">
+                      <p>{proj.title}</p>
+                      <p>{proj.description}</p>
+                      <p><span>Javascript</span></p>
+                    </div>
+                </div>
               </div>
-          </div>
-        </div>
-
-        <div className="proj-upper-main">
-          <div className="projects-main-cont">
-                <img src="/website-test.png" alt="" />
-              <div className="prj-lower-part">
-                <p>Project 1</p>
-                <p>Description of the project, cpuld be anything really.</p>
-                <p><span>Javascript</span></p>
-              </div>
-          </div>
-        </div>
-      </div>
+          </li>
+        ))}
+      </ul>
 
     </>
   )

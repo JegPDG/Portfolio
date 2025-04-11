@@ -5,7 +5,7 @@ const TopBar = (props) => {
   const {setPages} = props
 
   const [projborder, setprojborder] = useState(false)
-  const [aboutborder, setaboutborder] = useState(false)
+  const [aboutborder, setaboutborder] = useState(true)
 
 
   return (
