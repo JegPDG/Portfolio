@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <TopBar setPages={setPages} />
+      <TopBar setPages={setPages}/>
 
       {pages ? <Main/>: <Projects/> }
       

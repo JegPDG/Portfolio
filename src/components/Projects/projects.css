@@ -5,6 +5,7 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   overflow: scroll;
+  animation: fadeIn 0.6s ease-out forwards;
   /* overflow-y: visible; */
 }
 
@@ -57,6 +58,7 @@
   margin-bottom: 0.5rem;
   margin-top: 1rem;
   padding: 0 10px;
+  animation: fadeIn 0.6s ease-out forwards;
 
 }
 
@@ -64,6 +66,8 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  list-style-type: none;
+  animation: fadeIn 0.6s ease-out forwards;
 }
 .proj-upper-main{
   display: flex;
@@ -84,7 +88,7 @@
   max-width: 500px;
   height: 12rem;
   width: 21rem;
-
+  transition: transform 0.3s ease;
 }
 
 .projects-main-cont:hover{
@@ -130,3 +134,17 @@
   border-radius: 15px;
 }
 
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

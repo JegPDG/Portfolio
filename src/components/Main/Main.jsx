@@ -61,11 +61,8 @@ const Main = () => {
         <p>Contact Number</p>
         <p>+9625932210</p>
       </div>  
-      
     </div> 
 
-    
-  
   </>
   )
 }
